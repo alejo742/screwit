@@ -166,10 +166,9 @@ function DashboardContent() {
                   </>
                 ) : (
                   /* Empty State */
-                  <div className="h-full flex items-center justify-center p-6 overflow-y-auto">
+                  <div className="h-full flex items-center justify-center px-6 py-10 overflow-y-auto">
                     <div className="max-w-2xl w-full">
                       <div className="text-center mb-8">
-                        <MessageSquare className="w-16 h-16 text-muted-foreground/40 mx-auto mb-4" />
                         <h2 className="text-2xl font-semibold text-foreground mb-2">
                           Start Planning Your Event
                         </h2>

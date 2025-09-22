@@ -79,7 +79,7 @@ export default function PromptBox({ onSubmit, placeholder = "Describe your event
   return (
     <TooltipProvider delayDuration={300}>
       <div className={cn("w-full max-w-4xl mx-auto", className)}>
-        <Card className="border-border/60 shadow-sm">
+        <Card className="border-border/60 shadow-sm py-0">
           <CardContent className="p-4 space-y-4">
             {/* Main Textarea */}
             <div className="space-y-2">
